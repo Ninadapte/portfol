@@ -1,0 +1,11 @@
+var element  = document.getElementById("name");
+function speed()
+{
+ 
+ element.style.marginLeft +=10;
+//  if(element.style.x == window.innerWidth)
+//  {
+//      element.style.x = 0;
+//  }   
+}
+setInterval(speed , 1000);
